@@ -5,7 +5,7 @@ and what school you are attending
 
 import random
 
-
+# Creating the student Class
 class Student:
 
     def __init__(self, name, age, school):
@@ -30,7 +30,7 @@ if __name__ == "__main__":
 #it will also generate 30 random student names and print you out one at random
 """
 
-
+# Creating the Bloomtech Student Class
 class BloomTechStudent(Student):
     def __init__(self, name, age, school, planned_graduation):
         super().__init__(name, age, school)
@@ -45,7 +45,7 @@ if __name__ == "__main__":
     myself = BloomTechStudent("Cameron", 23, "BloomTech", 2024)
     # print(myself.name)
 
-
+# Calling a student Generator
 def student_generator(num_students=30):
 
     first_names = ["John", "Cameron", "Jason", "AAron", "TJ"]
